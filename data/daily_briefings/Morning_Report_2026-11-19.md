@@ -1,6 +1,6 @@
 # 🌐 全球情报日报 (Global Intel Briefing)
 **日期:** 2026-11-19
-**生成时间:** 05:36
+**生成时间:** 06:10
 **数据源:** HN, GitHub, 36Kr, WallStreetCN, V2EX, PH, ArXiv, X, TechCrunch, MIT TR
 
 ---
@@ -41,63 +41,63 @@
 ## 💰 资本动向 (Capital Flow)
 > 36Kr + 华尔街见闻
 
-### 1. [A股三大股指齐跌，科创50逆势涨1%，华虹、中芯国际大涨，恒科指跌超2%，腾讯跌6%，富智康涨6%](https://wallstreetcn.com/articles/3786248)
+### 1. [10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”](https://wallstreetcn.com/articles/3786264)
+📍 WallStreetCN | 🕒 06:01
+
+### 2. [马斯克“深圳连线”：详谈星舰、模型、算力、芯片、机器人、脑机，大赞黄仁勋“科技界乔丹”](https://wallstreetcn.com/articles/3786256)
+📍 WallStreetCN | 🕒 05:57
+
+### 3. [A股三大股指齐跌，科创50逆势涨1%，华虹、中芯国际大涨，恒科指跌超2%，腾讯跌6%，富智康涨6%](https://wallstreetcn.com/articles/3786248)
 📍 WallStreetCN | 🕒 05:28
 
-### 2. [虎牙运营利润四年来首度转正，游戏发行接棒增长](https://wallstreetcn.com/articles/3786260)
+### 4. [虎牙运营利润四年来首度转正，游戏发行接棒增长](https://wallstreetcn.com/articles/3786260)
 📍 WallStreetCN | 🕒 05:27
 
-### 3. [BIS新规：如何影响全球算力格局？](https://wallstreetcn.com/member/articles/3786156)
+### 5. [BIS新规：如何影响全球算力格局？](https://wallstreetcn.com/member/articles/3786156)
 📍 WallStreetCN | 🕒 05:23
 
-### 4. [国产算力板块暴跌，业界称“市场传闻不准确！”](https://wallstreetcn.com/articles/3786259)
+### 6. [国产算力板块暴跌，业界称“市场传闻不准确！”](https://wallstreetcn.com/articles/3786259)
 📍 WallStreetCN | 🕒 05:19
 
-### 5. [欢聚三季度收入增15.6%，直播之外找到第二增长曲线](https://wallstreetcn.com/articles/3786257)
+### 7. [欢聚三季度收入增15.6%，直播之外找到第二增长曲线](https://wallstreetcn.com/articles/3786257)
 📍 WallStreetCN | 🕒 05:00
 
-### 6. [付鹏：AI叙事退潮叠加关税变量，铜价或回归2022—2023年区间【付鹏说8】](https://wallstreetcn.com/premium/articles/3785993?layout=wscn-layout)
+### 8. [付鹏：AI叙事退潮叠加关税变量，铜价或回归2022—2023年区间【付鹏说8】](https://wallstreetcn.com/premium/articles/3785993?layout=wscn-layout)
 📍 WallStreetCN | 🕒 04:56
 
-### 7. [高盛谈圣诞行情：12月15日前先跌后涨，散户成最后买盘](https://wallstreetcn.com/articles/3786253)
+### 9. [高盛谈圣诞行情：12月15日前先跌后涨，散户成最后买盘](https://wallstreetcn.com/articles/3786253)
 📍 WallStreetCN | 🕒 04:02
 
-### 8. [马斯克“深圳连线”：详谈星舰、模型、算力、芯片、机器人、脑机，大赞黄仁勋“科技界乔丹”](https://wallstreetcn.com/articles/3786256)
-📍 WallStreetCN | 🕒 03:47
-
-### 9. [2027见闻历，财经人的桌面必备“神历”](https://wallstreetcn.com/articles/3782813)
+### 10. [2027见闻历，财经人的桌面必备“神历”](https://wallstreetcn.com/articles/3782813)
 📍 WallStreetCN | 🕒 03:36
-
-### 10. [腾讯：WorkBuddy崛起为中国使用量最大AI应用，“小微”未来媲美Muse，元宝不及预期成功](https://wallstreetcn.com/articles/3786214)
-📍 WallStreetCN | 🕒 03:34
 
 ## 📚 学术前沿 (Research)
 > ArXiv AI/ML Papers
 
-### 1. [TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks](https://arxiv.org/abs/2611.22115)
-👤 Xingchen AGI Lab, Baotian Hu | 📅 2026-11-17
+### 1. [Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems](https://arxiv.org/abs/2611.24932v1)
+👤 Priyanka Sinha, Sugam Pandey | 📅 2026-11-18
 
-**详情:** We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation, attention design, model depth and width, and speculative decoding balance model capacity with computation, memory access, and execution overhead. Our pretraining infrastructure builds on MindSpore HyperParallel, combining topology-aware hybrid sharding, efficient distributed optimizer execution, and coordinated management of long-sequence workloads and activation memory. CPU affinity and core isolation further reduce host scheduling interference. Together, these mechanisms support the pretraining of a 285B-parameter model on 8,192 Ascend 910C cards, providing a concrete setting for the architectural and systems studies. For post-training, we introduce TeleGym, a unified agent execution platform that connects execution, evaluation, and trajectory construction to policy optimization. Disaggregated asynchronous execution, bounded oversampling, and partial rollout accommodate heterogeneous task durations while preserving trajectory continuity across policy updates. Together, these advances establish an Ascend-oriented training foundation for the continued development of Xing 4 across model scales and increasingly demanding reasoning and agent workloads.
+**详情:** When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory of reviewer value to make it precise. The theory makes five claims: value is governed by calibration rather than by activity, speed, agreement, or tenure; calibration leaves observable traces in behavioral telemetry; those traces are non-diagnostic on their own, because the fast, low-revision signature of a calibrated expert is indistinguishable from that of a confident novice until it is gated by outcomes; human calibration and a model's self-knowledge are the same construct, so the joint system should defer to whichever agent is better calibrated on each item; and individual calibration is causally identifiable only above the level of the single judgment. We ground each claim in a six-month production window of an AI-assisted accounting system (541621 reviewer events, 483 reviewers), and find that a purely behavioral expertise profile inverts the ground truth, scoring an overconfident cohort (5.2 percent correction survival) higher than genuine experts (99.2 percent); that reviewer quality is flat across tenure, so the trait is not learned on the job; and that the same calibration logic that separates good from bad reviewers, applied to the model, concentrates 92.5 percent of human effort on genuine errors. We close with the boundary the theory must respect: under majority-vote aggregation, individual causal value is unidentifiable.
 
-### 2. [AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs](https://arxiv.org/abs/2611.17621)
-👤 AI Training Platform Team, Bingwei Zhang | 📅 2026-11-13
+### 2. [Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem](https://arxiv.org/abs/2611.24927v1)
+👤 Sarah H. Cen, Lindsey A. Gailmard | 📅 2026-11-18
 
-**详情:** Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial suite comprises 48 kernels across three difficulty levels. Each kernel is paired with test cases whose data types and tensor shapes are collected from real-world training and inference tasks. Consequently, performance improvements on AscendGYM map directly to the corresponding workloads. In terms of usability, two evaluation modes are supported in AscendGYM: model evaluation and model-harness evaluation. The kernel optimization capabilities of both trained models and custom agents are allowed to be measured. It provides a complete execution environment that closely reproduces how Ascend kernels are invoked in practical pipelines. For model evaluation, it additionally includes a built-in harness equipped with search orchestration and experience accumulation. Finally, we propose a new metric, the Speedup-Token Score (STS), which quantifies performance gains relative to token cost. By jointly considering speedup and cost, STS enables the assessment of practical kernel optimization capability of a model or harness under an acceptable budget. AscendGYM is available at https://github.com/SLAI-AITP/AscendGYM.
+**详情:** AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus on the organizations that make up the AI supply chain: the complex network of actors that contribute to the development and deployment of AI. We motivate the examination of the organizational AI supply chain---highlighting concerns about concentration, power, chokepoints, cascading failures, fragmented accountability, and risk---then describe our pipeline for mapping the AI supply chain. Our pipeline yields our main contribution: a multilayered, large-scale dataset of actors and relationships in the AI ecosystem, annotated with dates, descriptions, types, tags, and more. This work takes a step toward systematically mapping and measuring the AI supply chain and its properties, cataloging how models, data, chips, infrastructure, capital, and even talent flow between organizations. This data enable critical examinations of industry relationships and yield insights into the political economy of AI development and concentration. We provide several illustrative analyses, including studying the most central actors, analyzing network concentration, and identifying communities and chokepoints. While our dataset is fairly comprehensive, it is also necessarily incomplete: public documents omit private deals, and coverage is shaped by search design. Together, the approach, data, and findings aim to serve as a resource for studying the AI ecosystem. The dataset is publicly available at https://huggingface.co/datasets/sarahcen/ai-supply-chain and can be explored interactively at https://aisupplychains.org/.
 
-### 3. [Beyond Answering: Learning to Speak First and Act in Streaming Video](https://arxiv.org/abs/2611.17048)
-👤 Shuhan Li, Huankang Guan | 📅 2026-11-15
+### 3. [Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses](https://arxiv.org/abs/2611.24924v1)
+👤 Jiahang Lin, Jiahao Chen | 📅 2026-11-18
 
-**详情:** Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics worth discussing in the evolving visual stream and initiate conversations at appropriate moments without a user query. Stream-Aware Tool Calling (SATC) lets the model act on what it sees by invoking external tools using the current visual and conversational context and incorporating returned information into the ongoing interaction. Interactive Visual Grounding (IVG) supports visual grounding in both user inputs and model outputs. The model can identify objects marked by users on video frames and produce frame-aligned bounding boxes to link its responses to specific objects and regions. To develop these capabilities, we construct a dedicated streaming interaction dataset and adopt a three-stage training scheme to integrate the new behaviors with AURA's existing streaming interaction abilities. We further incorporate Long-Horizon Interaction Memory (LHIM) to maintain contextual continuity over extended video streams. Evaluations on public streaming benchmarks show that AURA 2.0 achieves leading performance among open-source streaming models, while targeted evaluations further validate its new interaction capabilities.
+**详情:** Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to select changes. This process often produces narrow patches and leads to benchmark-specific local optima. We introduce Agentic Harness Engineering Beta (AHE-Beta), a requirement-centered loop that brings real-world engineering practices into harness evolution. The loop consists of three steps: (1) User-driven evaluation lets simulated users raise their requirements as issues while they work with the harness over multiple turns. (2) Team-based modification implements those requirements as generalizable changes rather than task-specific patches. (3) Requirement-driven selection merges a change only when it resolves a verified requirement and passes review. Empirically, on held-out tasks, AHE-Beta raises pass@1 from 21.9% to 33.3% while using 40.8% fewer tokens than Base Harness, and achieves higher pass@1 than Claude Code, Meta-Harness, and AHE. In a blind human A/B test, real users prefer AHE-Beta in 31 of 48 valid pairs and rate it higher on all five dimensions, matching the directional preference of the user simulator. The human A/B results show that AHE-Beta achieves its goal of aligning harness evolution with real-world user requirements. Without further evolution, the gains transfer to GLM-5.3 and DeepSeek-V4.1-Flash with pass@1 improvements of 15.8% and 5.3% over Base Harness. Together, these results show that requirement-centered harness evolution is a more general method for improving agent capabilities.
 
-### 4. [FastFrames: Video Generation at Interactive Latency](https://arxiv.org/abs/2611.23226)
-👤 Gene Chou, Guandao Yang | 📅 2026-11-17
+### 4. [Who are you? The Personal Imitation Game](https://arxiv.org/abs/2611.24888v1)
+👤 Muhammad Rizky Wellyanto, Hajara-Yasmin Isa | 📅 2026-11-18
 
-**详情:** Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We profile the inference pipeline of state-of-the-art models and find that operations often treated as fixed implementation details, such as VAE decoding and KV cache updates, in fact account for over half of end-to-end inference latency. We challenge the assumption that these components are indispensable and replace them with lightweight alternatives. Our 1.3B variant runs at 36 ms per frame, or 28 responses per second (RPS), on a single B200 GPU while matching the generation quality of a state-of-the-art model that is nearly 8x slower. Our 14B variant runs at 45 ms per frame, or 22 RPS, on an 8x B200 GPU node and yields significantly better visual quality and realism. We show that FastFrames enables real-time interaction in applications such as camera-conditioned and physics-conditioned video generation.
+**详情:** Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human baseline and report the identity signals interrogators rely on: stylometric features, personality traits, and biographical facts. To demonstrate the framework, we design an LLM-based system that plays the game for one of the paper's authors, drawing on an autoethnographic dataset spanning ten years of personal digital communication. In a 20-person deception study, interrogators choose our system over the author's own friends in 7 of 10 rounds, and the author over our system in 13 of 20; neither rate is distinguishable from chance at this sample size. We consider design improvements, applications of personal AI agents, and implications for identity and privacy.
 
-### 5. [TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation](https://arxiv.org/abs/2611.23143)
-👤 Haosong Peng, Xiangyang Liu | 📅 2026-11-17
+### 5. [Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs](https://arxiv.org/abs/2611.24880v1)
+👤 Yuzhuo Li, Pasan Gunawardena | 📅 2026-11-18
 
-**详情:** Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP) pose as the action space, we present TCP4D, a unified model in which a shared 4D scene representation both tracks observed TCP motion and generates future TCP trajectories. Given a monocular video and initial 2D TCP queries, the tracker directly recovers metric TCP poses in SE(3) and gripper states alongside scene geometry and camera parameters. The generator samples local features from the same 4D representation along the recovered TCP tracks, then combines them with robot observations and language instructions to predict future TCP states. Our new cross-embodiment augmentation pipeline converts existing RGB videos into demonstrations for alternative embodiments by retargeting the recovered motion and synthesizing the corresponding observations, without recorded source-robot states. Experiments show that the tracker achieves absolute trajectory errors of 7.60 and 16.07 mm on DROID and RoboLab and adapts to a new embodiment with only ten demonstrations. The generator achieves 69.19% mean success on RoboTwin and outperforms well-established policy models on two real-world tasks, while joint training on source and augmented demonstrations improves target-robot success by 41.5% over augmented-only training.
+**详情:** Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specification. Such an agent can be served from a cloud API or from an inference device on the premises. For organizations whose designs, customer data or export-controlled material cannot leave the site, and whose simulators are licensed there, local deployment is the natural choice. In such a deployment, the agent becomes an electrical load on the organization's own equipment, i.e., every run consumes power and energy on a local device, generates tokens and takes time. However, existing work focuses mainly on what the agent can achieve with cloud-hosted models. What a local deployment costs in power, energy, tokens and time on real simulation tasks, and what its choices trade against one another, has received little quantitative investigation under comparable conditions. To address this gap, a systematic evaluation framework is presented in this paper. It applies locally served models to agentic power electronics tasks, from the converter level to the system level, and measures their power, energy, token and time costs. Based on these measurements, the capability boundary of a local agent on such tasks and the cost per solved task are characterized. The results are expected to provide practical insight for the use of agentic AI in power electronics and the power systems it serves.
 
 ## 💎 产品精选 (Product Gems)
 > Product Hunt Today
@@ -113,18 +113,18 @@
 > V2EX 热门
 
 ### 1. [我司全面禁止 AI Coding，一夜之间回到古法编程时代](https://www.v2ex.com/t/1258200)
-💬 116 replies
+💬 131 replies
 
-### 2. [新 offer 我该怎么选？](https://www.v2ex.com/t/1258010)
-💬 105 replies
+### 2. [UU 远程宣布收费](https://www.v2ex.com/t/1258207)
+💬 113 replies
 
-### 3. [UU 远程宣布收费](https://www.v2ex.com/t/1258207)
-💬 98 replies
+### 3. [新 offer 我该怎么选？](https://www.v2ex.com/t/1258010)
+💬 106 replies
 
-### 4. [用完 gpt-6.2 当场退订转 gemini](https://www.v2ex.com/t/1258022)
-💬 67 replies
+### 4. [哎 裁员了 好难受](https://www.v2ex.com/t/1258180)
+💬 70 replies
 
-### 5. [哎 裁员了 好难受](https://www.v2ex.com/t/1258180)
+### 5. [用完 gpt-6.2 当场退订转 gemini](https://www.v2ex.com/t/1258022)
 💬 67 replies
 
 ## 💡 深度洞察 (Insights)
