@@ -1,10 +1,32 @@
-lsi: false
-safe: true
-source: ./
-incremental: false
+title: Morning Briefing
+description: 每日全球情报简报
+lang: zh-CN
+timezone: Asia/Shanghai
+
+url: "https://ycrxun.github.io"
+baseurl: "/briefing"
+
+theme: minima
+markdown: kramdown
 highlighter: rouge
-gist:
-  noscript: false
+
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-relative-links
+  - jekyll-titles-from-headings
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
