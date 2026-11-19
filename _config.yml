@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: /data/daily_briefings
+source: data/daily_briefings
 incremental: false
 highlighter: rouge
 gist:
