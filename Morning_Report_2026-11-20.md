@@ -1,6 +1,6 @@
 # 🌐 全球情报日报 (Global Intel Briefing)
 **日期:** 2026-11-20
-**生成时间:** 02:38
+**生成时间:** 04:26
 **数据源:** HN, GitHub, 36Kr, WallStreetCN, V2EX, PH, ArXiv, X, TechCrunch, MIT TR
 
 ---
@@ -41,63 +41,63 @@
 ## 💰 资本动向 (Capital Flow)
 > 36Kr + 华尔街见闻
 
-### 1. [ AI公司的“困境”：规模越大，破产越快](https://wallstreetcn.com/charts/41960208)
+### 1. [A股三大股指齐跌，创业板跌2%，PCB逆势走强，恒科指跌超3%，快手大跌10%](https://wallstreetcn.com/articles/3786333)
+📍 WallStreetCN | 🕒 04:08
+
+### 2. [美元，迎来第四周上涨](https://wallstreetcn.com/articles/3786343)
+📍 WallStreetCN | 🕒 03:56
+
+### 3. [跌破3600，黄金势创3月来最惨一周](https://wallstreetcn.com/articles/3786342)
+📍 WallStreetCN | 🕒 03:46
+
+### 4. [付鹏：VIX倒挂叠加负Gamma效应，如何放大美股共振下杀？【付鹏说图表】](https://wallstreetcn.com/premium/articles/3786341?layout=wscn-layout)
+📍 WallStreetCN | 🕒 03:15
+
+### 5. [AI 投研时代，行情变快了吗？](https://wallstreetcn.com/articles/3786338)
+📍 WallStreetCN | 🕒 02:50
+
+### 6. [ AI公司的“困境”：规模越大，破产越快](https://wallstreetcn.com/charts/41960208)
 📍 WallStreetCN | 🕒 02:30
 
-### 2. [A股三大股指早盘下跌，创业板跌近3%，银行、煤炭逆势走强，恒科指跌超4%，权重科网股普遍下跌](https://wallstreetcn.com/articles/3786333)
-📍 WallStreetCN | 🕒 02:26
-
-### 3. [首发24小时销量或达到季度预测！GTA 6让大摩惊叹](https://wallstreetcn.com/articles/3786337)
+### 7. [首发24小时销量或达到季度预测！GTA 6让大摩惊叹](https://wallstreetcn.com/articles/3786337)
 📍 WallStreetCN | 🕒 02:23
 
-### 4. [腾讯终于有了AI爆款，但然后呢？](https://wallstreetcn.com/member/articles/3786254)
+### 8. [腾讯终于有了AI爆款，但然后呢？](https://wallstreetcn.com/member/articles/3786254)
 📍 WallStreetCN | 🕒 02:13
 
-### 5. [聪明人常犯的错误：太过迷恋自己的逻辑](https://wallstreetcn.com/charts/41960207)
+### 9. [2027见闻历，财经人的桌面必备“神历”](https://wallstreetcn.com/articles/3782813)
+📍 WallStreetCN | 🕒 01:42
+
+### 10. [聪明人常犯的错误：太过迷恋自己的逻辑](https://wallstreetcn.com/charts/41960207)
 📍 WallStreetCN | 🕒 01:33
-
-### 6. [阿里、腾讯释放同一个信号：资本开支在2028年后下降，国产算力驱动推理](https://wallstreetcn.com/articles/3786331)
-📍 WallStreetCN | 🕒 01:29
-
-### 7. [黑色星期五！日韩股指跌近5%，软银大跌15%，SK海力士跌超7%，黄金跌破3600](https://wallstreetcn.com/articles/3786330)
-📍 WallStreetCN | 🕒 01:22
-
-### 8. [华尔街希望Anthropic明年站上3万亿](https://wallstreetcn.com/charts/41960206)
-📍 WallStreetCN | 🕒 01:09
-
-### 9. [消费数据还在寻底，为什么科技基金经理开始研究消费股了？](https://wallstreetcn.com/member/articles/3786171)
-📍 WallStreetCN | 🕒 01:07
-
-### 10. [连续第18个月维持不变！11月LPR报价出炉：5年期以上3.5%，1年期3%](https://wallstreetcn.com/articles/3786332)
-📍 WallStreetCN | 🕒 01:01
 
 ## 📚 学术前沿 (Research)
 > ArXiv AI/ML Papers
 
-### 1. [Jeveration: System One Models Now Generate](https://arxiv.org/abs/2611.24738)
-👤 Yuhe Liu, Qi Li | 📅 2026-11-18
+### 1. [Studying AI Act Mentions: A first look at the impact of the European Union's AI regulation on Hugging Face](https://arxiv.org/abs/2611.26050v1)
+👤 Anamaria Mojica-Hanke, Tessi Aigbovbiosa-Igbinovia | 📅 2026-11-19
 
-**详情:** System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single prompt admits many valid images, yet parallel predictions must converge on a coherent whole. We therefore condition all positions on a shared random state to coordinate parallel predictions, so that each draw yields a different but coherent image. Since the model tends to ignore this state under direct image supervision, we first learn a distribution over discrete image codes to guide single-pass generation. Beyond text-to-image generation, we further unify image-to-image generation and dense prediction within the same architecture, so that one checkpoint supports all three tasks, each in one forward pass. Experiments show that Jeveration generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.
+**详情:** The European Union's Artificial Intelligence Act (AI Act) entered into force in August 2024, and its obligations apply in stages. Obligations for providers of general-purpose AI models have applied since August 2025, and transparency rules since August 2026. These obligations affect developers who share and deploy models and applications on public platforms such as Hugging Face (HF), the largest platform for distributing AI artifacts. However, little is known about how practitioners respond to the regulation in practice. To address this gap, we conducted an empirical study of explicit references to the AI Act on HF. We collected over five million records, including repository cards, discussions, and commits from Models, Datasets, and Spaces, and identified over 1,500 records that explicitly mention the Act. Two coders manually labeled these records using a primarily closed coding approach, and we analyzed the resulting categories per source. We find that explicit references to the AI Act remain rare across all repository types. Repository cards mainly contain claims of compliance and responsibility, like ensuring compliance or assigning responsibility to downstream users, and some claim that the Act does not apply because the model is not a general-purpose AI model. Discussions are used to report alleged violations of the Act, while commits mainly update artifacts that support compliance. Overall, compliance statements focus on who is responsible rather than how compliance is achieved. We believe that this calls for direct platform support, e.g., automated checks and documentation templates, as well as clearer guidance on the scope of the AI Act.
 
-### 2. [The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements](https://arxiv.org/abs/2611.23068)
-👤 Yuanhao Zeng, Shaocheng Lan | 📅 2026-11-17
+### 2. [SEOYUN: Refusal-Inducing Exam Documents for AI-Glasses Pipelines](https://arxiv.org/abs/2611.26033v1)
+👤 Dohyeon Kwon | 📅 2026-11-19
 
-**详情:** Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods fail to propose better artifacts, but because noisy evaluations cannot reliably identify them. Across seven evolution methods and six models (over 10M LLM calls), we find support for the hypothesis at both levels where evaluation scores are used. At the candidate level (choosing artifacts), helpful candidate artifacts exist, but selection is no better than random at telling them from harmful ones, so errors accumulate across rounds. At the method level (ranking methods), typical margins of a few percentage points are smaller than the difference between two independent runs of the same method, so published rankings often rest on luck. Together, these findings indicate that agent evolution is often bottlenecked by reliably identifying improvements. This calls for a shift in how we develop and evaluate self-improving agents, from designing ever more candidate improvement systems to making true improvements detectable and accumulable.
+**详情:** Camera-equipped glasses can convert an examination page into a query to a vision-language model (VLM). Device detection addresses possession; a complementary question is whether an examination document can reduce the usefulness of an unauthorized capture. We present SEOYUN, an application-specific framework for refusal-inducing exam documents, with optical and encoder-level interventions as extensions. We use reverse jailbreaking to describe the direction of the objective: inducing abstention rather than bypassing refusal. Refusal induction and defensive visual prompt injection already have precedents; our contribution is a threat model, analytical limits, and an evaluation protocol for examination use. We distinguish refusal from correct-answer leakage, show why removing an added dummy option is not itself a reduction in the original answer space, and derive a sampling comparison under explicitly stated camera assumptions. The protocol separates digital, simulated, and physical inputs and requires held-out evaluation after subject-specific selection. A local CSAT candidate corpus and rendering harness have been prepared, but this version reports no model-performance measurements, physical validation, or human-subject results. Accordingly, SEOYUN is a research framework, not a validated defense or a basis for allegations against individuals.
 
-### 3. [ALIVE: Making Streaming Video Models Interactive](https://arxiv.org/abs/2611.21366)
-👤 Jinzhao Li, Yuan Xu | 📅 2026-11-16
+### 3. [Serialization Tax in Shared-Latent Exchangeable Decisions](https://arxiv.org/abs/2611.26029v1)
+👤 Siming Zhang, Zhehui Shen | 📅 2026-11-19
 
-**详情:** Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training. Contrastive supervised fine-tuning teaches when and how to respond, while reinforcement learning with Behavior-Aligned Credit Assignment (BACA) combines trajectory-level and local advantages to refine decisions, responses, and silence across multi-turn interactions. We also introduce FSI-Bench to evaluate feedback seeking and subsequent task completion. ALIVE achieves the highest overall scores among the compared models on four public benchmarks and FSI-Bench, demonstrating strong streaming understanding and interactive capabilities.
+**详情:** Accurate item probabilities can produce inaccurate group-level decisions. A system may score each item separately, yet act on whether enough hidden items succeed: show a slate, defer a panel decision, or inspect a batch. When items share an uncertain latent state, independent marginalization preserves means but removes dependence from the aggregate posterior. We call this error the serialization tax. For binary items sharing one success rate, classical convex-order comparisons give a more dispersed exact count law than any independent completion with the same total mean. We quantify variance and total-variation gaps, derive threshold separation under margin conditions, and connect posterior approximation to decision regret. Separate results cover non-binary outcomes, heterogeneous items, and sufficient posterior resolution. TaxScore identifies large hidden blocks with unresolved uncertainty near a decision boundary for routing to richer posterior heads. On pre-specified, hidden-target-free MovieLens 1M/10M audits, existing shared-latent heads improve high-score negative log-likelihood (NLL)/utility from 0.673/0.696 to 0.629/0.723 and from 0.670/0.691 to 0.639/0.715. Routing gives 0.006--0.012 full-population utility gains, with matched controls identifying their sources. Our code is available at https://github.com/SiminChang/Serialization-Tax-in-Shared-Latent-Exchangeable-Decisions.
 
-### 4. [PROLA: Principal-Orthogonal Low-rank Adaptation for Predictive Spatiotemporal Weather Downscaling](https://arxiv.org/abs/2611.11318)
-👤 Minseo Yoon, Minseong Bae | 📅 2026-11-08
+### 4. [ForeSeek: Foresight-Driven Reasoning for Long-Form Video Understanding](https://arxiv.org/abs/2611.26024v1)
+👤 Yuchen Sun, Siyuan Cheng | 📅 2026-11-19
 
-**详情:** High-resolution weather prediction is important for resolving local atmospheric patterns missed by coarse global forecasts. Large pretrained weather backbones have improved global forecasting, but adapting them to produce future high-resolution fields from recent coarse states remains challenging and costly. We formulate this setting as Predictive Spatiotemporal Weather Downscaling (PSWD), a task that jointly refines spatial and temporal resolution while predicting future high-resolution trajectories. To this end, we propose a framework that decomposes prediction into spatial and temporal stages using a shared pretrained backbone, fixed numerical scaffolds, and lightweight residual heads. For backbone adaptation, we introduce PROLA (PRincipal-Orthogonal Low-rank Adaptation), which allocates a fixed low-rank budget between pretrained weights' principal directions and their orthogonal complement. PROLA further rescales rank-1 optimizer updates using gradient signals, improving adaptation without increasing trainable rank. Experiments in the PSWD setting show that PROLA outperforms representative low-rank adaptation baselines. Further experiments across diverse datasets and tasks support the broader applicability of PROLA, showing that its benefits extend beyond the primary weather downscaling setting.
+**详情:** Long-form video understanding, as a fundamental yet crucial vision task, is being revolutionized by multimodal large language model (MLLM)-based video agents. However, the retrieval-driven nature inherent to these agents creates a significant bottleneck, forcing them to reactively fetch clips based on local saliency without a global temporal plan. To address this, we present ForeSeek, a foresight-driven video agent that transforms long-video reasoning from reactive retrieval into predictive exploration. Rather than blindly probing the timeline, ForeSeek forms visually grounded expectations over unseen temporal regions, verifies them through targeted observations, and continuously refines its search based on emerging evidence, where failed expectations serve as informative signals for principled backtracking. Furthermore, we develop a two-stage training framework that equips MLLMs with foresight-guided reasoning and efficient decision making. Extensive experiments on five long-video benchmarks demonstrate that ForeSeek consistently improves the efficiency--accuracy trade-off of long-video reasoning, achieving competitive or superior accuracy while observing $2.5$--$4.4\times$ fewer frames than the strongest search-based agent. Code is available at https://github.com/harry0021/ForeSeek
 
-### 5. [Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development](https://arxiv.org/abs/2611.24154)
-👤 Xirui Jiang, Yuxi Chen | 📅 2026-11-18
+### 5. [Does the Workspace Do the Work? A Causal Protocol for Verifying Global-Workspace Computation in a Language Model](https://arxiv.org/abs/2611.26018v1)
+👤 Diaoxuan He, Linqian Wu | 📅 2026-11-19
 
-**详情:** Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes. To address these gaps, we introduce Game2Player, a framework that co-develops game environments and players to collect diverse and verifiable gameplay experience at scale. In the Game2Player loop, a Builder agent adapts existing web games, exposes their internal state, and defines tasks with state-based progress measures and success checks. A Coding Player and a VLM Player then attempt the tasks and report problems to the Builder for repair, so that play serves as both environment validation and training data collection. With Game2Player, we build 568 verified web games with 3,436 tasks, collect 15.7K trajectories (307 hours of gameplay), and hold out 50 games as the benchmark PlayerBench. To evaluate the collected experience as training data, we train VLM agents with progress-weighted SFT, assigning greater weight to steps that advance task progress. Game2Player-9B improves progress from 14.3% to 31.2% on PlayerBench and from 30.0% to 53.1% on the external GameWorld benchmark. More broadly, our work suggests a path for visual agents to scale their gameplay experience by building, verifying, and learning from existing game worlds.
+**详情:** Global Workspace Theory (GWT), a leading theory of consciousness, holds that information becomes conscious when it is broadcast to specialized processes that use it. Building a workspace into a network does not reveal what the trained network computes with it: a module that reports an answer may have combined a broadcast message with its own knowledge, or merely forwarded an answer computed elsewhere, and task accuracy and ablation cannot tell these apart. We introduce a causal protocol that identifies who computes when modules communicate. Its central test transplants a message from another input, chosen so that ignoring, relaying and recombining it predict three different answers. On networks built to relay or to recombine, the test assigns the right computation in every case. Among trained workspace models it finds all three outcomes: one leaves its broadcast nearly unused, and of two models that differ only in their training data, one relays and the other recombines. In AFGW, a language model whose modules communicate only through a learned workspace, a transplanted message yields the answer that recombination predicts in 97% of cases, and its content acts by redirecting what the receiver retrieves from its own memory. The tests carry over to other communication designs and to a known interface of a pretrained Transformer, turning GWT's central claim into a testable property of trained models.
 
 ## 💎 产品精选 (Product Gems)
 > Product Hunt Today
@@ -112,20 +112,20 @@
 ## 🗣️ 社区热点 (Community)
 > V2EX 热门
 
-### 1. [我司全面禁止 AI Coding，一夜之间回到古法编程时代](https://www.v2ex.com/t/1258200)
-💬 250 replies
+### 1. [我的 App 火了，然后苹果威胁要关闭我的开发者账号](https://www.v2ex.com/t/1258411)
+💬 133 replies
 
-### 2. [UU 远程宣布收费](https://www.v2ex.com/t/1258207)
-💬 191 replies
+### 2. [我的悲哀 我父母的悲哀](https://www.v2ex.com/t/1258332)
+💬 111 replies
 
-### 3. [求助帖：2 年被裁 3 次，简历花掉还能找到工作吗？](https://www.v2ex.com/t/1258214)
-💬 184 replies
+### 3. [结婚后对象想买特斯拉 model y](https://www.v2ex.com/t/1258451)
+💬 85 replies
 
-### 4. [[回复抽奖] 自家种的赣南脐橙又上市了｜V 友券后 10 斤装 45 元、20 斤装 90 元](https://www.v2ex.com/t/1258199)
-💬 141 replies
+### 4. [没有人会不爱上 Gemini 4 Neon](https://www.v2ex.com/t/1258290)
+💬 80 replies
 
-### 5. [人啊，没个释放压力的出口是真难受，大家都有什么可以释放压力的嗜好/爱好或者癖好？](https://www.v2ex.com/t/1258219)
-💬 119 replies
+### 5. [统计了 V2EX 近 15 年提到「裁员」或「失业」的帖子](https://www.v2ex.com/t/1258315)
+💬 73 replies
 
 ## 💡 深度洞察 (Insights)
 > HN Top Blogs + MIT Technology Review — 精选深度分析
