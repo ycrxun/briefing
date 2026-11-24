@@ -6,8 +6,7 @@ title: Morning Briefing
 # 每日简报
 
 {% assign reports = site.pages
-  | where_exp: "p", "p.path contains 'data/daily_briefings/'"
-  | where_exp: "p", "p.path contains '.md'"
+  | where_exp: "p", "p.name contains 'Morning_Report_'"
   | sort: "path"
   | reverse %}
 
